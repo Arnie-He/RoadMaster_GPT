@@ -59,7 +59,7 @@ class AttentionHead(tf.keras.layers.Layer):
         # TODO:
         # Initialize the weight matrices for K, V, and Q.
         # They should be able to multiply an input_size vector to produce an output_size vector
-        self.initializer = tf.keras.initializers.GlorotUniform()
+        self.initializer = tf.keras.initializers.GlorotUniform(seed=42)
         self.weight_K = tf.Variable(self.initializer(shape=[input_size,output_size]))
         self.weight_V = tf.Variable(self.initializer(shape=[input_size,output_size]))
         self.weight_Q = tf.Variable(self.initializer(shape=[input_size,output_size]))

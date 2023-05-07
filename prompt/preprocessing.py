@@ -54,22 +54,13 @@ def get_prompt_features(image_names, prompts):
     prompt_features = []
     pbar = tqdm(image_names)
     for i, prompt in enumerate(prompts):
-        embedding = tf.keras.layers.Embedding(len(prompt), 2048)
+        embedding = tf.keras.layers.Embedding(len(prompt), 128)
         pbar.set_description(f"[({i+1}/{len(image_names)})] Processing '{prompt}' into 2048-D ResNet GAP Vector")
         prompt_features += [embedding(np.array(prompt))]
     return prompt_features
 
 
 def load_data(data_folder):
-    '''
-    Method that was used to preprocess the data in the data.p file. You do not need 
-    to use this method, nor is this used anywhere in the assignment. This is the method
-    that the TAs used to pre-process the Flickr 8k dataset and create the data.p file 
-    that is in your assignment folder. 
-
-    Feel free to ignore this, but please read over this if you want a little more clairity 
-    on how the images and captions were pre-processed 
-    '''
     text_file_path = f'{data_folder}/response.txt'
 
     with open(text_file_path) as file:
@@ -178,11 +169,15 @@ def load_data(data_folder):
     print("Getting training embeddings")
     train_image_features, train_images = get_image_features(train_image_names, data_folder)
     train_prompts_features = get_prompt_features(train_image_names, train_prompts)
-    train_image_features = tf.concat([train_image_features, train_prompts_features], axis=1)
+    train_prompts_features = tf.reshape(train_prompts_features, (1,-1))
+    train_image_features = [tf.concat([train_image_features[0], train_prompts_features], axis=1)]
+    print(train_prompts_features)
     print("Getting testing embeddings")
     test_prompts_features = get_prompt_features(test_image_names, test_prompts)
+    test_prompts_features = tf.reshape(test_prompts_features, (1,-1))
     test_image_features,  test_images  = get_image_features(test_image_names, data_folder)
-    test_image_features = tf.concat([test_image_features, test_prompts_features], axis=1)
+    test_image_features = [tf.concat([test_image_features[0], test_prompts_features], axis=1)]
+    print(train_image_features[0].shape)
 
 
     return dict(

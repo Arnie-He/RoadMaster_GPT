@@ -8,8 +8,8 @@ class ImageCaptionModel(tf.keras.Model):
         self.decoder = decoder
 
     @tf.function
-    def call(self, encoded_images, captions,prompt):
-        return self.decoder(encoded_images, captions, prompt)  
+    def call(self, encoded_images, captions):
+        return self.decoder(encoded_images, captions)  
 
     def compile(self, optimizer, loss, metrics):
         '''
@@ -47,6 +47,7 @@ class ImageCaptionModel(tf.keras.Model):
             start = end - batch_size
             batch_image_feature = batch_image_features[start:end, :]
             decoder_input = train_captions[start:end, :-1]
+            print(decoder_input)
             decoder_labels = train_captions[start:end, 1:]
             with tf.GradientTape() as tape:
                 probs = self(batch_image_feature, decoder_input)

@@ -21,7 +21,7 @@ def parse_args(args=None):
         parse_args('--type', 'rnn', ...)
     """
     parser = argparse.ArgumentParser(description="Let's train some neural nets!", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--type',           default=transformer,              choices=['rnn', 'transformer'],     help='Type of model to train')
+    parser.add_argument('--type',           default='transformer',              choices=['rnn', 'transformer'],     help='Type of model to train')
     parser.add_argument('--task',           default='both',              choices=['train', 'test', 'both'],  help='Task to run')
     parser.add_argument('--data',           default='/Users/kevin/Desktop/cs1470/RoadMaster_GPT/prompt/data/data.p',              help='File path to the assignment data file.')
     parser.add_argument('--epochs',         type=int,   default=3,      help='Number of epochs used in training.')
@@ -44,12 +44,10 @@ def main(args):
     with open(args.data, 'rb') as data_file:
         data_dict = pickle.load(data_file)
 
-    feat_prep = lambda x: np.repeat(np.array(x).reshape(-1, 2048), 5, axis=0)
-    img_prep  = lambda x: np.repeat(x, 5, axis=0)
     train_captions  = np.array(data_dict['train_captions'])
     test_captions   = np.array(data_dict['test_captions'])
-    train_img_feats = feat_prep(data_dict['train_image_features'])
-    test_img_feats  = feat_prep(data_dict['test_image_features'])
+    train_img_feats = np.array(data_dict['train_image_features'])
+    test_img_feats  = np.array(data_dict['test_image_features'])
     # train_images    = img_prep(data_dict['train_images'])
     # test_images     = img_prep(data_dict['test_images'])
     word2idx        = data_dict['word2idx']
@@ -71,7 +69,7 @@ def main(args):
         
         compile_model(model, args)
         train_model(
-            model, train_captions, train_img_feats, word2idx['<pad>'], args,
+            model, train_captions, train_img_feats, word2idx['<pad>'], args, 
             valid = (test_captions, test_img_feats)
         )
         if args.chkpt_path: 
@@ -105,6 +103,7 @@ def load_model(args):
         custom_objects=dict(
             AttentionHead              = transformer.AttentionHead,
             AttentionMatrix        = transformer.AttentionMatrix,
+            MultiHeadedAttention            = transformer.MultiHeadedAttention,
             TransformerBlock       = transformer.TransformerBlock,
             PositionalEncoding      = transformer.PositionalEncoding,
             TransformerDecoder      = TransformerDecoder,
