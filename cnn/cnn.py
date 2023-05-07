@@ -13,4 +13,8 @@ class CNN(tf.keras.Model):
 
 
     def call(self, input):
-        return self.encoder(input)
+        x = input
+        x = self.cnn(x)
+        x = self.attention(x,x,x)
+        x = self.layer_norm(x)
+        return x
