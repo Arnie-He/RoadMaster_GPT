@@ -1,0 +1,3 @@
+image,caption
+image1.jpg,No you can not turn right
+image2.jpg,Yes you can turn right
