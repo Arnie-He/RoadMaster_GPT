@@ -8,8 +8,8 @@ class ImageCaptionModel(tf.keras.Model):
         self.decoder = decoder
 
     @tf.function
-    def call(self, encoded_images, captions):
-        return self.decoder(encoded_images, captions)  
+    def call(self, encoded_images, captions,prompt):
+        return self.decoder(encoded_images, captions, prompt)  
 
     def compile(self, optimizer, loss, metrics):
         '''

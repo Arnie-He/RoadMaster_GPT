@@ -8,7 +8,7 @@ from types import SimpleNamespace
 
 
 from model import ImageCaptionModel, accuracy_function, loss_function
-from decoder import TransformerDecoder, RNNDecoder
+from decoder import TransformerDecoder
 import transformer
 
 
@@ -21,9 +21,9 @@ def parse_args(args=None):
         parse_args('--type', 'rnn', ...)
     """
     parser = argparse.ArgumentParser(description="Let's train some neural nets!", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--type',           required=True,              choices=['rnn', 'transformer'],     help='Type of model to train')
-    parser.add_argument('--task',           required=True,              choices=['train', 'test', 'both'],  help='Task to run')
-    parser.add_argument('--data',           required=True,              help='File path to the assignment data file.')
+    parser.add_argument('--type',           default=transformer,              choices=['rnn', 'transformer'],     help='Type of model to train')
+    parser.add_argument('--task',           default='both',              choices=['train', 'test', 'both'],  help='Task to run')
+    parser.add_argument('--data',           default='/Users/kevin/Desktop/cs1470/RoadMaster_GPT/prompt/data/data.p',              help='File path to the assignment data file.')
     parser.add_argument('--epochs',         type=int,   default=3,      help='Number of epochs used in training.')
     parser.add_argument('--lr',             type=float, default=1e-3,   help='Model\'s learning rate')
     parser.add_argument('--optimizer',      type=str,   default='adam', choices=['adam', 'rmsprop', 'sgd'], help='Model\'s optimizer')
@@ -61,7 +61,7 @@ def main(args):
         
         ##############################################################################
         ## Model Construction
-        decoder_class = RNNDecoder if args.type=='rnn' else TransformerDecoder
+        decoder_class = TransformerDecoder
         decoder = decoder_class(
             vocab_size  = len(word2idx), 
             hidden_size = args.hidden_size, 
@@ -71,7 +71,7 @@ def main(args):
         
         compile_model(model, args)
         train_model(
-            model, train_captions, train_img_feats, word2idx['<pad>'], args, 
+            model, train_captions, train_img_feats, word2idx['<pad>'], args,
             valid = (test_captions, test_img_feats)
         )
         if args.chkpt_path: 
@@ -105,11 +105,9 @@ def load_model(args):
         custom_objects=dict(
             AttentionHead              = transformer.AttentionHead,
             AttentionMatrix        = transformer.AttentionMatrix,
-            MultiHeadedAttention            = transformer.MultiHeadedAttention,
             TransformerBlock       = transformer.TransformerBlock,
             PositionalEncoding      = transformer.PositionalEncoding,
             TransformerDecoder      = TransformerDecoder,
-            RNNDecoder              = RNNDecoder,
             ImageCaptionModel       = ImageCaptionModel
         ),
     )

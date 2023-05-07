@@ -1,3 +1,3 @@
-image,caption
-image1.jpg,No you can not turn right
-image2.jpg,Yes you can turn right
+image,caption,prompt
+image1.jpg,No you can not turn right,Can you make a right turn right now?
+image2.jpg,Yes you can turn right,Can you give me a dance?

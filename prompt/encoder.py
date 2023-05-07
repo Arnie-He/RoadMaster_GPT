@@ -11,6 +11,9 @@ class Encoder(tf.keras.Model):
             # Use masking to handle the variable sequence lengths
             mask_zero=True),
         tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64)),
+        tf.keras.layers.Dense(64, activation='relu'),
+        tf.keras.layers.Dense(64, activation='relu'),
+        tf.keras.layers.Dense(1, activation='relu')
     ])
 
     def call(self, input):
