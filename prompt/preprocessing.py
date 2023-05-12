@@ -43,6 +43,8 @@ def get_image_features(image_names, data_folder, vis_subset=100):
         pbar.set_description(f"[({i+1}/{len(image_names)})] Processing '{img_path}' into 2048-D ResNet GAP Vector")
         with Image.open(img_path) as img:
             img_array = np.array(img.resize((224,224)))
+            # reduce to 3 channels
+            img_array = img_array[:,:,:3]
         img_in = tf.keras.applications.resnet50.preprocess_input(img_array)[np.newaxis, :]
         image_features += [gap(resnet(img_in))]
         if i < vis_subset:
@@ -170,14 +172,11 @@ def load_data(data_folder):
     train_image_features, train_images = get_image_features(train_image_names, data_folder)
     train_prompts_features = get_prompt_features(train_image_names, train_prompts)
     train_prompts_features = tf.reshape(train_prompts_features, (1,-1))
-    train_image_features = [tf.concat([train_image_features[0], train_prompts_features], axis=1)]
-    print(train_prompts_features)
+    print(train_image_features)
     print("Getting testing embeddings")
     test_prompts_features = get_prompt_features(test_image_names, test_prompts)
     test_prompts_features = tf.reshape(test_prompts_features, (1,-1))
     test_image_features,  test_images  = get_image_features(test_image_names, data_folder)
-    test_image_features = [tf.concat([test_image_features[0], test_prompts_features], axis=1)]
-    print(train_image_features[0].shape)
 
 
     return dict(

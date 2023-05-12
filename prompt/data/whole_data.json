@@ -1,0 +1,872 @@
+[
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right for you."
+  },
+  {
+    "user prompt": "Speed up to 50 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn left now.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left for you."
+  },
+  {
+    "user prompt": "Go straight ahead.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will continue straight ahead for you."
+  },
+  {
+    "user prompt": "Speed up to 80 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn right at the next intersection.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right at the next intersection for you."
+  },
+  {
+    "user prompt": "Maintain the current speed.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will maintain the current speed for you."
+  },
+  {
+    "user prompt": "Slow down to 30 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 30 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 60 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 60 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next opportunity.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next opportunity for you."
+  },
+  {
+    "user prompt": "Proceed straight ahead.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight ahead for you."
+  },
+  {
+    "user prompt": "Speed up to 40 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn left ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a left turn ahead."
+  },
+  {
+    "user prompt": "Slow down to 20 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 20 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 70 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 70 km/h for you."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn left now.",
+    "camera output": "Turn right ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a right turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 50 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 50 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 30 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 30 km/h for you."
+  },
+  {
+    "user prompt": "Turn right at the next opportunity.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right at the next opportunity for you."
+  },
+  {
+    "user prompt": "Slow down to 60 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will slow down to 60 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next intersection.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next intersection for you."
+  },
+  {
+    "user prompt": "Proceed straight.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight for you."
+  },
+  {
+    "user prompt": "Speed up to 35 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right for you."
+  },
+  {
+    "user prompt": "Speed up to 75 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn left now.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left for you."
+  },
+  {
+    "user prompt": "Go straight ahead.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will continue straight ahead for you."
+  },
+  {
+    "user prompt": "Slow down to 40 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn right at the next opportunity.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right at the next opportunity for you."
+  },
+  {
+    "user prompt": "Maintain the current speed.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain the current speed for you."
+  },
+  {
+    "user prompt": "Turn left at the next intersection.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next intersection for you."
+  },
+  {
+    "user prompt": "Proceed straight.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight for you."
+  },
+  {
+    "user prompt": "Slow down to 50 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Speed up to 65 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 65 km/h for you."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn left ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a left turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 60 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 60 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 20 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 20 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next opportunity.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next opportunity for you."
+  },
+  {
+    "user prompt": "Proceed straight ahead.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight ahead for you."
+  },
+  {
+    "user prompt": "Speed up to 45 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right for you."
+  },
+  {
+    "user prompt": "Slow down to 25 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 25 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 72 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn left now.",
+    "camera output": "Turn right ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a right turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 55 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 55 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 28 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 28 km/h for you."
+  },
+  {
+    "user prompt": "Turn right at the next opportunity.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right at the next opportunity for you."
+  },
+  {
+    "user prompt": "Slow down to 65 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will slow down to 65 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next intersection.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next intersection for you."
+  },
+  {
+    "user prompt": "Proceed straight.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight for you."
+  },
+  {
+    "user prompt": "Speed up to 32 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Speed up to 68 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 68 km/h for you."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn left ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a left turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 45 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 45 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 22 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 22 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next opportunity.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next opportunity for you."
+  },
+  {
+    "user prompt": "Proceed straight ahead.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight ahead for you."
+  },
+  {
+    "user prompt": "Speed up to 40 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right for you."
+  },
+  {
+    "user prompt": "Slow down to 15 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 15 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 76 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn left now.",
+    "camera output": "Turn right ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a right turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 50 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 50 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 25 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 25 km/h for you."
+  },
+  {
+    "user prompt": "Turn right at the next opportunity.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right at the next opportunity for you."
+  },
+  {
+    "user prompt": "Slow down to 55 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will slow down to 55 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next intersection.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next intersection for you."
+  },
+  {
+    "user prompt": "Proceed straight.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight for you."
+  },
+  {
+    "user prompt": "Speed up to 35 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Speed up to 64 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 64 km/h for you."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn left ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a left turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 40 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 40 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 18 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 18 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next opportunity.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next opportunity for you."
+  },
+  {
+    "user prompt": "Proceed straight ahead.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight ahead for you."
+  },
+  {
+    "user prompt": "Speed up to 42 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right for you."
+  },
+  {
+    "user prompt": "Slow down to 10 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 10 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 71 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn left now.",
+    "camera output": "Turn right ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a right turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 48 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 48 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 29 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 29 km/h for you."
+  },
+  {
+    "user prompt": "Turn right at the next opportunity.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right at the next opportunity for you."
+  },
+  {
+    "user prompt": "Slow down to 60 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will slow down to 60 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next intersection.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next intersection for you."
+  },
+  {
+    "user prompt": "Proceed straight.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight for you."
+  },
+  {
+    "user prompt": "Speed up to 33 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Speed up to 62 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 62 km/h for you."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn left ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a left turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 35 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 35 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 27 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 27 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next opportunity.",
+    "camera output": "Turn left ahead",
+    "response": "Yes, I will turn left at the next opportunity for you."
+  },
+  {
+    "user prompt": "Proceed straight ahead.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed straight ahead for you."
+  },
+  {
+    "user prompt": "Speed up to 44 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right for you."
+  },
+  {
+    "user prompt": "Slow down to 20 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 20 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 66 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 66 km/h for you."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will go straight at the next intersection for you."
+  },
+  {
+    "user prompt": "Turn left now.",
+    "camera output": "Turn right ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a right turn ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 52 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 52 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 30 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 30 km/h for you."
+  },
+  {
+    "user prompt": "Turn right at the next opportunity.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right at the next opportunity for you."
+  },
+  {
+    "user prompt": "Continue at the same speed.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will continue at the same speed for you."
+  },
+  {
+    "user prompt": "Drive at 40 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 40 km/h for you."
+  },
+  {
+    "user prompt": "Follow the road ahead.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will follow the road ahead for you."
+  },
+  {
+    "user prompt": "Keep going straight.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will keep going straight for you."
+  },
+  {
+    "user prompt": "Maintain your current speed.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will maintain my current speed for you."
+  },
+  {
+    "user prompt": "Slow down to 50 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will slow down to 50 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 60 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will speed up to 60 km/h for you."
+  },
+  {
+    "user prompt": "Stay in the current lane.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will stay in the current lane for you."
+  },
+  {
+    "user prompt": "Drive at a constant speed of 45 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at a constant speed of 45 km/h for you."
+  },
+  {
+    "user prompt": "Proceed in the same direction.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will proceed in the same direction for you."
+  },
+  {
+    "user prompt": "Go straight at the next intersection.",
+    "camera output": "Turn left ahead",
+    "response": "Sorry, I cannot do that as the sign indicates a left turn ahead."
+  },
+  {
+    "user prompt": "Turn right now.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right for you."
+  },
+  {
+    "user prompt": "Slow down to 20 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 20 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 66 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 66 km/h for you."
+  },
+  {
+    "user prompt": "Maintain a speed of 52 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will maintain a speed of 52 km/h for you."
+  },
+  {
+    "user prompt": "Drive at 35 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 35 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 30 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 30 km/h for you."
+  },
+  {
+    "user prompt": "Turn right at the next opportunity.",
+    "camera output": "Turn right ahead",
+    "response": "Yes, I will turn right at the next opportunity for you."
+  },
+  {
+    "user prompt": "Slow down to 25 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 25 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Turn right at the next intersection.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Drive at 35 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 35 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 30 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 30 km/h for you."
+  },
+  {
+    "user prompt": "Slow down to 25 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 25 km/h for you."
+  },
+  {
+    "user prompt": "Turn left in 500 meters.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Turn right in 500 meters.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Maintain your current speed.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will maintain my current speed for you."
+  },
+  {
+    "user prompt": "Speed up to 60 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 60 km/h for you."
+  },
+  {
+    "user prompt": "Slow down to 45 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will slow down to 45 km/h for you."
+  },
+  {
+    "user prompt": "Take the next left turn.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Take the next right turn.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Drive at 50 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 50 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 28 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 28 km/h for you."
+  },
+  {
+    "user prompt": "Slow down to 20 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 20 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next traffic light.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Turn right at the next traffic light.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Maintain a speed of 40 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will maintain a speed of 40 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 32 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Sorry, I cannot do that as it's against the speed limit."
+  },
+  {
+    "user prompt": "Slow down to 15 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 15 km/h for you."
+  },
+  {
+    "user prompt": "Make a left turn soon.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Make a right turn soon.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Drive at 55 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 55 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 69 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 69 km/h for you."
+  },
+  {
+    "user prompt": "Slow down to 40 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will slow down to 40 km/h for you."
+  },
+  {
+    "user prompt": "Turn left in 300 meters.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Turn right in 300 meters.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Drive at 47 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 47 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 26 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 26 km/h for you."
+  },
+  {
+    "user prompt": "Slow down to 22 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 22 km/h for you."
+  },
+  {
+    "user prompt": "Turn left at the next crosswalk.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Turn right at the next crosswalk.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Drive at 42 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 42 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 65 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 65 km/h for you."
+  },
+  {
+    "user prompt": "Slow down to 35 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will slow down to 35 km/h for you."
+  },
+  {
+    "user prompt": "Turn left after the pedestrian crossing.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Turn right after the pedestrian crossing.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Drive at 48 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 48 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 29 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will speed up to 29 km/h for you."
+  },
+  {
+    "user prompt": "Slow down to 18 km/h.",
+    "camera output": "Speed limit (30km/h)",
+    "response": "Yes, I will slow down to 18 km/h for you."
+  },
+  {
+    "user prompt": "Turn left in 100 meters.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Turn right in 100 meters.",
+    "camera output": "Ahead only",
+    "response": "Sorry, I cannot do that as the sign indicates to proceed straight ahead."
+  },
+  {
+    "user prompt": "Drive at 52 km/h.",
+    "camera output": "Ahead only",
+    "response": "Yes, I will drive at 52 km/h for you."
+  },
+  {
+    "user prompt": "Speed up to 68 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will speed up to 68 km/h for you."
+  },
+  {
+    "user prompt": "Slow down to 30 km/h.",
+    "camera output": "Speed limit (70km/h)",
+    "response": "Yes, I will slow down to 30 km/h for you."
+  }
+]
